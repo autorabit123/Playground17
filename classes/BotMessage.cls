@@ -14,11 +14,12 @@ public virtual class BotMessage {
         this.author = author;
         this.messageText = messageText;
     }
-
+    //org 1 addition
     public BotMessage(String author, String messageText, List<BotRecord> records) {
         this.author = author;
         this.messageText = messageText;
         this.records = records;
+        //retest
     }
 
     public BotMessage(String author, String messageText, List<BotItem> items) {
